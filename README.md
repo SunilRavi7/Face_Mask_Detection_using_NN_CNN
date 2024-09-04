@@ -37,20 +37,12 @@ with ZipFile(dataset, 'r') as zip:
     zip.extractall()
     print("The Dataset is extracted!")
 
+## 📊 Results
 
-## ⚙️ Installation
+![Accuracy](https://img.shields.io/badge/Accuracy-95%25-brightgreen) ![Real-time](https://img.shields.io/badge/Real--time-Yes-blue)
 
----
+### Model Performance
 
-## Requirements
-
-- Python 3.8+
-- TensorFlow 2.0+
-- OpenCV 4.5.3
-- NumPy
-- Matplotlib
-
-To install the required packages, run the following command:
-
-```bash
-pip install tensorflow opencv-python numpy matplotlib
+- **Accuracy**: The model achieves an accuracy of over 95% in detecting face masks.
+- **Precision and Recall**: High precision and recall for both "with mask" and "without mask" categories.
+- **Real-Time Efficiency**: The model processes video feeds with minimal latency, making it suitable for real-time applications.
