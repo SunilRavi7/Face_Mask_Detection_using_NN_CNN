@@ -36,3 +36,21 @@ dataset = '/content/face-mask-dataset.zip'
 with ZipFile(dataset, 'r') as zip:
     zip.extractall()
     print("The Dataset is extracted!")
+
+
+## ⚙️ Installation
+
+---
+
+## Requirements
+
+- Python 3.8+
+- TensorFlow 2.0+
+- OpenCV 4.5.3
+- NumPy
+- Matplotlib
+
+To install the required packages, run the following command:
+
+```bash
+pip install tensorflow opencv-python numpy matplotlib
